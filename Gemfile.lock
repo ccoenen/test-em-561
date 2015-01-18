@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/ryuta-kai/eventmachine.git
+  revision: a0022964e549efaa2a6535055583762970fbc064
+  branch: windows-patch
+  specs:
+    eventmachine (1.0.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -39,7 +46,6 @@ GEM
     coffee-script-source (1.8.0)
     daemons (1.1.9)
     erubis (2.7.0)
-    eventmachine (1.0.4)
     execjs (2.2.2)
     hike (1.2.3)
     i18n (0.7.0)
@@ -109,7 +115,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-  eventmachine (= 1.0.4)
+  eventmachine!
   jquery-rails
   rails (= 3.2.21)
   sass-rails (~> 3.2.3)
